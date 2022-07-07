@@ -1,0 +1,156 @@
+.navMenu {
+    background-color: #864000;
+    opacity: 40%;
+    
+}
+
+.homeLogo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    line-height: 0.4em;
+    color: #FFFFFF;
+}
+.listing {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #864000;
+    opacity: 40%;
+}
+
+.headMenu {
+    font-family: 'Readex Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.home {
+    background: url(/dikaprio.jpeg) no-repeat center top/cover;
+    height: 600px;
+    filter: grayscale(60%);
+}
+
+.homeP {
+    font-family: 'Readex Pro', sans-serif;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+}
+
+
+p, h4,td {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 15px;
+}
+
+#film {
+    background-color: #864000;
+    opacity: 40%;
+}
+
+.filmFoto {
+    display: block;
+    width: 100%;
+    background-size: cover;
+}
+
+.mainpageFilm {
+    background: url(/di_kaprio.jpg) no-repeat center top/cover;
+    height: 600px;
+    filter: grayscale(60%);
+}
+
+.btnFilm:hover {
+    background-color: #864000;
+    opacity: 40%;
+}
+
+.btnFilm {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 10px;
+}
+
+.album {
+    background-color: #212121;
+}
+
+.quote {
+    background-color: #864000;
+    opacity: 40%;
+    font-family: 'Readex Pro', sans-serif;
+    color: #FFFFFF;
+}
+.presentation {
+    background-color: #212121;
+    color: #FFFFFF;
+}
+
+.oscar {
+    filter: grayscale(100%);
+}
+
+.biod {
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    display: block;
+    border: 2px solid #F6DCBF;
+}
+
+.mainpageBio {
+    background: url(/leobiomain.jpg) no-repeat center top/cover;
+    height: 600px;
+    filter: grayscale(60%);
+}
+
+.mainpageAwards {
+    background: url(/awardsmain.jpg) no-repeat center top/cover;
+    height: 600px;
+    filter: grayscale(60%);
+}
+
+#biography {
+        background-color: #864000;
+        opacity: 40%;
+
+}
+
+@media screen and (max-width: 950px) {
+    .homeLogo {
+        font-size: 20px;   
+    }
+    .awards {
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .homeLogo {
+        font-size: 20px;   
+    }
+    .awards {
+        flex-direction: column;
+    }
+    iframe {
+        width: 320px;
+    }
+    p {
+        font-size: 10px;
+    }
+    td {
+        font-size:10px;
+      }
+    .bioImages {
+        width: 80%;
+    }
+}
